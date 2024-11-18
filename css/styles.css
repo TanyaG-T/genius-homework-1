@@ -71,11 +71,15 @@ ul {
 .link {
   color: var(--color-brand-dark);
   text-decoration: none;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 .link:hover {
   color: var(--color-brand-light);
   font-weight: 700;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 .hero-title {
@@ -83,11 +87,12 @@ ul {
   text-align: left;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.2;
 }
 
 .hero-title .accent {
   color: var(--color-brand-light);
-  font-family: "Play" sans-serif;
+  font-family: "Play";
   font-size: 140px;
   font-weight: 700;
 }
@@ -95,4 +100,60 @@ ul {
 .consultation {
   color: var(--color-secondary-dark);
   font-size: 12px;
+}
+
+.section-title {
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.lifting .img {
+  border-radius: 50%;
+  width: 335px;
+  height: 328px;
+  top: 656px;
+  left: 837px;
+}
+
+.section-title .brand {
+  color: var(--color-brand-light);
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.advantages-title {
+  line-height: 1.7;
+}
+
+.advantages-title .advantages {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.advantages-list {
+  line-height: 1.3;
+}
+
+/* contact section */
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--color-primary-white);
+  text-decoration: none;
+}
+
+.footer {
+  background-color: var(--color-brand-dark);
+}
+
+.link-footer .navigation {
+  line-height: 1.2;
+  color: var(--color-primary-white);
+  text-decoration: none;
 }
